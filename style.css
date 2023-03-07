@@ -1,0 +1,246 @@
+html {
+  height: 100%;
+  width: 100%;
+/*   background: url("https://klike.net/uploads/posts/2019-12/1577612670_47.jpg") center/cover no-repeat fixed;
+  background-position: center; */
+ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+			max-width: 1110px;
+			margin: 0 auto;
+		}
+  
+header {
+/*   position: fixed; */
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(90deg, #6983b5,#879cc4,#aebcd6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  
+}
+.academy {
+  font-size: 38px;
+  color: black;
+  padding: 10px;
+  transition: 0.5s;
+}
+.academy:hover {
+  transform: scale(1.2);
+}
+header nav ul li {
+  position: relative;
+  float: left;
+}
+header nav ul li a {
+  padding: 15px;
+  color: black;
+  display: block;
+}
+header nav ul li a:hover {
+  background: black;
+  color: white;
+}
+nav ul li ul {
+  position: absolute;
+  left: 0;
+  width: 180px;
+  background: white;
+  display: none;
+  
+}
+nav ul li ul li {
+  width: 100%;
+}
+nav ul li ul li {
+  left: 80px;
+  
+}
+nav ul li:hover>ul {
+  display: initial;
+  
+}
+
+h2 {
+  position: relative;
+  text-align: center;
+  color: black;
+  margin: 15px;
+  font-size: 40px;
+}
+#home {
+  
+  margin: 0 auto;
+  background: #b1a2fb;
+ 
+}
+.flex {
+justify-content: space-evenly;
+   display: inline-flex;
+  
+   
+}
+.flex1 {
+  
+  width: 300px;
+  height: 100px;
+  margin: 60px;
+}
+#about>div {
+  margin: 200px;
+  padding: 0;
+}
+#about.flex_conteiner {
+   display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 10px;
+  
+  
+}
+#about {
+  margin: 0 auto;
+  
+  
+  
+  
+}
+#about.flex3 {
+  display: flex;
+   width: 100px; 
+  height: 100px;
+  margin: 60px;
+}
+#about p {
+  text-align: center;
+  background: #4d36f7;
+  margin: 25px;
+  padding: 50px;
+}
+  img:hover {
+   transition: all 0.4s ease;
+  transform: scale(1.3);
+  z-index: 1;
+  }
+
+
+form {
+  background-color: #a5a0f3;
+  margin: 15px;
+  max-width: 500px;
+  padding: 15px;
+ width: 55%;
+}
+            
+input {
+  padding: 5px;
+  margin: 10px 0;
+  
+  text-align: center;
+  box-sizing: border-box;
+}
+
+input[name=fistname] {
+  
+}
+
+input[name=lastname] {
+  
+}
+  
+input[name=mail]{
+  width: 55%;
+}
+input[name=onephone]{
+  width: 25%;
+}
+input[name=twophone]{
+  width: 15%;
+}
+input[name=message]{
+  width: 55%;
+}
+input[name=submit]{
+  width: 55%;
+  text-align: center;
+  
+}
+/* main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+} */
+
+footer {
+    padding-bottom: 2em;
+  margin: 10px;
+
+  
+}
+
+.footer__text {
+    font-size: 0.8em;
+    margin-top: 2em;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.about_photo_1 {
+   width: 250px;
+  height: 250px;
+  background: url('img/food.jpg') 50%/cover no-repeat;
+  margin: 10px;
+  
+}
+
+.about_photo_2 {
+   width: 250px;
+  height: 250px;
+  background: url('img/campfire.jpg') 50%/cover no-repeat;
+  margin: 10px;
+  
+}
+.about_photo_3 {
+   width: 250px;
+  height: 250px;
+  background: url('img/guitar.jpg') 50%/cover no-repeat;
+  margin: 10px;
+  
+}
+.about_photo_4 {
+   width: 250px;
+  height: 250px;
+  background: url('img/hiking.png') 50%/cover no-repeat;
+  margin: 10px;
+  
+}
+.about_photo_5 {
+   width: 250px;
+  height: 250px;
+  background: url('img/romantic.jpg') 50%/cover no-repeat;
+  margin: 10px;
+  
+}
+
+
+
+
+  
+
+
+
